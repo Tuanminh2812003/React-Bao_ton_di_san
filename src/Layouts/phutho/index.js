@@ -28,7 +28,7 @@ function LayoutDefault(){
                                 Khu Di tích lịch sử Đền Hùng
                             </Link>
                             <Link to={"https://heritageflashxr.quydisan.vn/hatxoan "} className="diadanh__content__box">
-                                Di tích lịch sử, kiến trúc nghệ thuật và khảo cổ Cổ Loa
+                                Di sản Hát Xoan Phú Thọ
                             </Link>
                         </div>
                     </div>
