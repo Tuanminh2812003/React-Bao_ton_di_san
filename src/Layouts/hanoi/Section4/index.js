@@ -75,7 +75,9 @@ function Section4() {
                         {index === 2 &&
                         `Cổ Loa vừa là Kinh thành, vừa là Quân thành và Thị thành. Cổ Loa thật sự là đô thị cổ đại ở Việt Nam có quy mô rộng lớn nhất và được khởi dựng sớm nhất trong khu vực Đông Nam Á.`}
                         {index === 3 &&
-                        `Cổ Loa vừa là Kinh thành, vừa là Quân thành và Thị thành. Cổ Loa thật sự là đô thị cổ đại ở Việt Nam có quy mô rộng lớn nhất và được khởi dựng sớm nhất trong khu vực Đông Nam Á.`}
+                        `1`}
+                        {index === 4 &&
+                        `2`}
                     </div>
                     ) : null
                 )}

@@ -24,7 +24,7 @@ function LayoutDefault(){
                 <div className="container">
                     <div className="diadanh">
                         <div className="diadanh__title">
-                            HÀ NỘI
+                            HÀ NỘI...
                         </div>
                         <div className="diadanh__content">
                             <Link to={"https://heritageflashxr.quydisan.vn/hoangthanhthanglong"} className="diadanh__content__box">
