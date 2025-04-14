@@ -49,6 +49,12 @@ function Section4() {
 
                 </div>
                 ))}
+                <div className="Section4__next" onClick={handleNextClick}>
+                                <MdNavigateNext />
+                            </div>
+                            <div className="Section4__prev" onClick={handlePrevClick}>
+                                <MdNavigateBefore />
+                            </div>
             </div>
             <div className="Section4__pagi">
                 {slides.map((_, index) => (
@@ -58,12 +64,6 @@ function Section4() {
                     onClick={() => handleDotClick(index)} // Khi nhấn vào dot, cập nhật slide hiện tại
                     ></div>
                 ))}
-            </div>
-            <div className="Section4__next" onClick={handleNextClick}>
-                <MdNavigateNext />
-            </div>
-            <div className="Section4__prev" onClick={handlePrevClick}>
-                <MdNavigateBefore />
             </div>
         </div>
     );

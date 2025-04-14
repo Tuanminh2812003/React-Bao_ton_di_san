@@ -16,8 +16,12 @@ import DCTT from "./Layouts/doncataitu";
 import HN from "./Layouts/hanoi";
 import PT from "./Layouts/phutho";
 import NB from "./Layouts/ninhbinh";
-import TH from "./Layouts/thanhoa";
+import TH from "./Layouts/thanhhoa";
 import H from "./Layouts/hue";
+import HNCL from "./Layouts/hanoi/coloa";
+import PTDH from "./Layouts/phutho/denhung";
+import NBCDHL from "./Layouts/ninhbinh/codohoalu";
+import THLK from "./Layouts/thanhhoa/lamkinh";
 import Home from './Layouts/Home';
 import ScrollToTop from './Components/ScrollToTop';
 
@@ -41,9 +45,13 @@ function App() {
         <Route path='/muarong' element={<DCTT/>}/>
 
         <Route path='/hanoi' element={<HN/>}/>
+        <Route path='/hanoi/coloa' element={<HNCL/>}/>
         <Route path='/phutho' element={<PT/>}/>
+        <Route path='/phutho/denhung' element={<PTDH/>}/>
         <Route path='/ninhbinh' element={<NB/>}/>
+        <Route path='/ninhbinh/codohoalu' element={<NBCDHL/>}/>
         <Route path='/thanhhoa' element={<TH/>}/>
+        <Route path='/thanhhoa/lamkinh' element={<THLK/>}/>
         <Route path='/hue' element={<H/>}/>
       </Routes>
     </>

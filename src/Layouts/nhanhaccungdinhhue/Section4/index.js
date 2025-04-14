@@ -48,6 +48,12 @@ function Section4() {
 
                 </div>
                 ))}
+                <div className="Section4__next" onClick={handleNextClick}>
+                                <MdNavigateNext />
+                            </div>
+                            <div className="Section4__prev" onClick={handlePrevClick}>
+                                <MdNavigateBefore />
+                            </div>
             </div>
             <div className="Section4__pagi">
                 {slides.map((_, index) => (
@@ -58,13 +64,7 @@ function Section4() {
                     ></div>
                 ))}
             </div>
-            
-            <div className="Section4__next" onClick={handleNextClick}>
-                <MdNavigateNext />
-            </div>
-            <div className="Section4__prev" onClick={handlePrevClick}>
-                <MdNavigateBefore />
-            </div>
+        
         </div>
     );
 }

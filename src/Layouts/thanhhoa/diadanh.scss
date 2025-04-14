@@ -1,0 +1,178 @@
+//RedMode-
+$RedMode-Back-color: #FFFFFF;
+$RedMode-Text-color: #374151;
+$RedMode-Title-color: #ac1d27;
+$RedMode-Disc-color: #EEE;
+$RedMode-Back2-color: #FEF2F2;
+$RedMode-Question-background: #FEF2F2;
+$RedMode-Question-color: #F66E5B;
+
+//GreenMode-
+$GreenMode-Back-color: #D4E0BD;
+$GreenMode-Text-color: #374151;
+$GreenMode-Title-color: #ac1d27;
+$GreenMode-Disc-color: #374151;
+$GreenMode-Back2-color: #1D5136;
+$GreenMode-Question-background: #FEF2F2;
+$GreenMode-Question-color: #D7EC84;
+
+//BlueMode
+$BlueMode-Back-color: #F3E7DB;
+$BlueMode-Text-color: #374151;
+$BlueMode-Title-color: #ac1d27;
+$BlueMode-Disc-color: #374151;
+$BlueMode-Back2-color: #6F8083;
+$BlueMode-Question-color: #57A6B4;
+$BlueMode-Question-background: #FEF2F2;
+
+//BrownMode
+$brownMode-Back-color: #E3DAD2;
+$brownMode-Text-color: #374151;
+$brownMode-Title-color: #ac1d27;
+$brownMode-Disc-color: #374151;
+$brownMode-Back2-color: #4C3932;
+$brownMode-Question-background: #FEF2F2;
+$brownMode-Question-color: #C16746;
+
+
+.redMode{
+    .diadanh{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 80px;
+    
+        &__title{
+            color: $RedMode-Title-color;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 150%; /* 30px */
+            text-align: center;
+            margin-bottom: 24px;
+        }
+        &__content{
+            width: 100%;
+            margin-top: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+
+            &__box{
+                border-radius: 16px;
+                box-shadow: 5px 5px 10px #888888;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                overflow: hidden;
+                width: 30%;
+                transition: all ease-in 0.2s;
+                background-color: transparent;
+                margin: 0px 1.5%;
+                margin-bottom: 56px;
+                height: 200px;
+                text-align: center;
+                padding: 24px;
+                background-color: $RedMode-Title-color;
+                color: white;
+
+                &:hover{
+                    box-shadow: 8px 8px 8px var(--hover-color); /* Sử dụng biến động */
+                }
+            }
+        }
+    }
+}
+
+.greenMode{
+    .diadanh{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 80px;
+    
+        &__title{
+            color: $GreenMode-Title-color;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 150%; /* 30px */
+            text-align: center;
+            margin-bottom: 24px;
+        }
+    }
+}
+.blueMode{
+    .diadanh{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 80px;
+    
+        &__title{
+            color: $BlueMode-Title-color;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 150%; /* 30px */
+            text-align: center;
+            margin-bottom: 24px;
+        }
+        &__content{
+            width: 100%;
+            margin-top: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+
+            &__box{
+                border-radius: 16px;
+                box-shadow: 5px 5px 10px #888888;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                overflow: hidden;
+                width: 30%;
+                transition: all ease-in 0.2s;
+                background-color: transparent;
+                margin: 0px 1.5%;
+                margin-bottom: 56px;
+                height: 200px;
+                text-align: center;
+                padding: 24px;
+                background-color: $BlueMode-Back2-color;
+                color: white;
+
+                &:hover{
+                    box-shadow: 8px 8px 8px var(--hover-color); /* Sử dụng biến động */
+                }
+            }
+        }
+    }
+}
+.brownMode{
+    .diadanh{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 80px;
+    
+        &__title{
+            color: $brownMode-Title-color;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 150%; /* 30px */
+            text-align: center;
+            margin-bottom: 24px;
+        }
+    }
+}

@@ -17,7 +17,7 @@ function SectionMain(){
     return(
         <>
             <div className="SectionMain" style={{
-                backgroundImage: "url('/image/vuonquocgia/1.1.png')",
+                backgroundImage: "url('/image/hanoi/hanoi3.jpg')",
                 backgroundSize: "cover",
                 backgroundPosition: "center 0",
             }}>
@@ -25,7 +25,7 @@ function SectionMain(){
                 <div className="container">
                     <div className="SectionMain__inner">
                         <div className="SectionMain__inner__title">
-                            VƯỜN QUỐC GIA PHONG NHA - KẺ BÀNG
+                            Di tích lịch sử và khảo cổ Khu Trung tâm Hoàng thành Thăng Long - Hà Nội
                         </div>
                     </div>
                 </div>
@@ -36,23 +36,10 @@ function SectionMain(){
             >
                 <div className="container">
                     <div className="SectionMainP2__inner">
-                        <div className="SectionMainP2__inner__title">
-                             Dự án HeritageFlash XR Chào mừng quý khách đến trải nghiệm về Vườn quốc gia Phong Nha - Kẻ Bàng!
+                        <div className="SectionMainP2__inner__title" style={{textAlign: "center"}}>
+                            Di tích Cổ Loa thuộc địa phận huyện Đông Anh, thành phố Hà Nội.
                         </div>
-                        <div className="SectionMainP2__inner__disc">
-                            Tham gia trải nghiệm về Vườn quốc gia Phong Nha - Kẻ Bàng quý khách sẽ: 
-                        </div>
-                        <ul>
-                            <li>
-                                Nêu được vị trí và giới thiệu được khái quát về di sản Vườn quốc gia Phong Nha - Kẻ Bàng.
-                            </li>
-                            <li>
-                                Biết cách sưu tầm và sử dụng tư liệu lịch sử để tìm hiểu Vườn quốc gia Phong Nha - Kẻ Bàng.
-                            </li>
-                            <li>
-                                Vận dụng kiến thức đã đọc, nhận thức được giá trị của di sản, có ý thức bảo tồn đối với công cuộc bảo tồn và phát huy giá trị di sản văn hóa.
-                            </li>
-                        </ul>
+                        
                     </div>
                 </div>
             </div>

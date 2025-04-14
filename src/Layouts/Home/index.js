@@ -16,6 +16,12 @@ function Home(){
                         </div>
                         <div className="home__section3__inner" style={{marginTop: "56px"}}>
                         <Flashcard
+                            sectionData={sections.diSanPhiVatThe}
+                            title="Địa điểm"
+                            color="#374151"
+                            id="diSanVatThe"
+                        />
+                        <Flashcard
                             sectionData={sections.diSanVatThe}
                             title="Cổ vật"
                             color="#89231E"
@@ -26,12 +32,6 @@ function Home(){
                             title="Tác phẩm"
                             color="#1D5136"
                             id="diSanThienNhien"
-                        />
-                        <Flashcard
-                            sectionData={sections.diSanPhiVatThe}
-                            title="Địa điểm"
-                            color="#374151"
-                            id="diSanVatThe"
                         />
                         </div>
                     </div>

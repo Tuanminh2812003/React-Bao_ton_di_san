@@ -1,5 +1,9 @@
 import "../../Components/LayoutDefault.scss";
 
+import "./diadanh.scss";
+import { Link } from "react-router-dom";
+
+
 import SectionMain from "./SectionMain";
 import Section1 from "./Section1";
 import Section1p2 from "./Section1p2"
@@ -14,10 +18,22 @@ import Footer from "./Footer";
 function LayoutDefault(){
     return(
         <>
-            <div className="greenMode">
+            <div className="redMode">
 
                 <div className="container">
-                    <Section4/>
+                    <div className="diadanh">
+                        <div className="diadanh__title">
+                            NINH BÌNH
+                        </div>
+                        <div className="diadanh__content">
+                            <Link to={"/ninhbinh/codohoalu"} className="diadanh__content__box">
+                                Di tích lịch sử và kiến trúc nghệ thuật Cố đô Hoa Lư 
+                            </Link>
+                            <Link to={"https://heritageflashxr.quydisan.vn/quantheditichtrangan"} className="diadanh__content__box">
+                                Quần thể danh thắng Tràng An
+                            </Link>
+                        </div>
+                    </div>
                 </div>
 
             </div>
