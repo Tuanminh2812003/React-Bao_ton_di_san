@@ -7,7 +7,6 @@ function Section4() {
         "/image/hanoi/hanoi1.jpg",
         "/image/hanoi/hanoi2.jpg",
         "/image/hanoi/hanoi3.jpg",
-        "/image/hanoi/hanoi1.jpg",
     ];
 
     const handleNextClick = () => {
@@ -37,12 +36,10 @@ function Section4() {
                     index === currentSlide ? (
                     <div key={index} className="Section4__title">
                         {index === 0 &&
-                        `Vị trí địa lý`}
-                        {index === 1 &&
                         `Xếp hạng di sản`}
-                        {index === 2 &&
+                        {index === 1 &&
                         `Ý nghĩa di sản`}
-                        {index === 3 &&
+                        {index === 2 &&
                         `Điểm nổi bật`}
                     </div>
                     ) : null
