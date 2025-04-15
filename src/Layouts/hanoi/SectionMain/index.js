@@ -25,7 +25,7 @@ function SectionMain(){
                 <div className="container">
                     <div className="SectionMain__inner">
                         <div className="SectionMain__inner__title">
-                            Di tích lịch sử và khảo cổ Khu Trung tâm Hoàng thành Thăng Long - Hà Nội
+                            Di tích lịch sử, kiến trúc nghệ thuật và khảo cổ Cổ Loa
                         </div>
                     </div>
                 </div>
